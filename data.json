@@ -1,0 +1,61 @@
+{
+  "categories": [
+    {
+      "title": "Faciales",
+      "description": "Faciales; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "image": "/images/facials/mascarilla-facial.jpg",
+      "treatments": [
+        {
+          "id": 1,
+          "title": "Limpieza Facial",
+          "image": "/images/facials/treatments/limpieza-facial.jpg",
+          "description": "Limpieza Facial; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        },
+        {
+          "id": 2,
+          "title": "Hidrafacial",
+          "image": "https://i.picsum.photos/id/588/600/400.jpg?hmac=t1vwK7p28ecG57UiRVlZSXwqsdhGvW1WfEG0D5ISy5E",
+          "description": "Hidrafacial; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        }
+      ]
+    },
+    {
+      "title": "Tratamientos Corporales",
+      "description": "Tratamientos Corporales; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "image": "/images/body/body.jpeg",
+      "treatments": [
+        {
+          "id": 1,
+          "title": "EM Sculp",
+          "image": "/images/body/treatments/EM-Sculp.jpg",
+          "description": "Utiliza la tecnología de vibraciones electromagnéticas de alta intensidad, la cual estimula los músculos del cuerpo para que puedan seguir expandiendo y contrayendose (este tipo de contracción no se logra con el ejercicio convencional). Em sculp puede estimular 30,000 contracciones musculares fuertemente en tan solo 30 min. Lo cual ayuda a las células grasas a su metabolismo y pronta descomposición. Sin bisturí, inyecciones, medicinas... Queme grasa y tonifique músculo al mismo tiempo que se remodelan las líneas de belleza corporal."
+        },
+        {
+          "id": 2,
+          "title": "Body Perfectum",
+          "image": "https://i.picsum.photos/id/588/600/400.jpg?hmac=t1vwK7p28ecG57UiRVlZSXwqsdhGvW1WfEG0D5ISy5E",
+          "description": "Body Perfectum; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        }
+      ]
+    },
+    {
+      "title": "Micropuntura",
+      "description": "Micropuntura; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "image": "/images/micropuntura/micropuntura.jpg",
+      "treatments": [
+        {
+          "id": 1,
+          "title": "Micropuntura en secuelas de acné",
+          "image": "/images/body/treatments/EM-Sculp.jpg",
+          "description": "Micropuntura en secuelas de acné; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        },
+        {
+          "id": 2,
+          "title": "Micropuntura en estrias",
+          "image": "https://i.picsum.photos/id/588/600/400.jpg?hmac=t1vwK7p28ecG57UiRVlZSXwqsdhGvW1WfEG0D5ISy5E",
+          "description": "Micropuntura en estrias; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        }
+      ]
+    }
+  ]
+}
