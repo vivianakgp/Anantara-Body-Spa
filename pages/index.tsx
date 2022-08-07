@@ -2,7 +2,8 @@
 import Head from '../node_modules/next/head'
 import styles from '../styles/pages/Home.module.css'
 
-export default function Home() {
+export default function Home({ category }) {
+  // console.log("categorias:", category)
   return (
     <div className={styles.container}>
       <Head>
@@ -19,3 +20,11 @@ export default function Home() {
     </div>
   )
 }
+export function getStaticProps() {
+  const data = require('../data.json')
+  return {
+    props: {
+      category: data.categories
+    }
+  }
+};
