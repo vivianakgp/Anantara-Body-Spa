@@ -17,7 +17,7 @@ export default function CardCategory({ category }) {
                 category.map((elem: Category) => (
                     <div key={elem.id}>
                         <h1>{elem.title}</h1>
-                        <Link href={`/categoria/${elem.title}`}>
+                        <Link href={`/tratamientos/${elem.title}`}>
                             <a>ver tratamientos</a>
                         </Link>
                     </div>
