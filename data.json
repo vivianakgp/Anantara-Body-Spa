@@ -1,7 +1,8 @@
 {
   "categories": [
     {
-      "title": "Faciales",
+      "title": "faciales",
+      "id": 1,
       "description": "Faciales; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
       "image": "/images/facials/mascarilla-facial.jpg",
       "treatments": [
@@ -20,7 +21,8 @@
       ]
     },
     {
-      "title": "Tratamientos Corporales",
+      "title": "corporales",
+      "id": 2,
       "description": "Tratamientos Corporales; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
       "image": "/images/body/body.jpeg",
       "treatments": [
@@ -39,7 +41,8 @@
       ]
     },
     {
-      "title": "Micropuntura",
+      "title": "micropuntura",
+      "id": 3,
       "description": "Micropuntura; Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
       "image": "/images/micropuntura/micropuntura.jpg",
       "treatments": [

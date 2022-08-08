@@ -24,7 +24,7 @@
     "**/*.ts",
     "**/*.tsx",
     "pages/_app.js"
-  ],
+, "pages/api/hello.js", "pages/api/hello.js", "components/home/CardCategorytsx"  ],
   "exclude": [
     "node_modules"
   ]
