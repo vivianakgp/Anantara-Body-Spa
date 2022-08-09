@@ -3,11 +3,13 @@
 
 import Layout from '../components/Layout'
 import CardCategory from '../components/home/CardCategory'
+import Banner from '../components/Banner'
 
 
-export default function Home({ category }) {
+export default function Home({ category, bannerIgm }) {
   return (
     <Layout title="home">
+      <Banner bannerPath={bannerIgm} />
       <main>
         <h1>
           Welcome anantara body spa *
@@ -24,7 +26,8 @@ export async function getStaticProps() {
   const data = await res.json()
   return {
     props: {
-      category: data.categories
+      category: data.categories,
+      bannerIgm: data.bannerImg
     }
   }
 };

@@ -1,4 +1,5 @@
-import Layout from "../../../components/Layout";
+import Layout from '../../../components/Layout';
+import Banner from '../../../components/Banner'
 
 // interface Treatmen {
 // }
@@ -12,6 +13,7 @@ interface Category {
 export default function CategoryTreatments({ category }) {
     return (
         <Layout title={category.title}>
+            <Banner bannerPath={category.image} />
             <main>
                 <h2>category titulo : {category.title}</h2>
                 <div>
