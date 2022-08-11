@@ -12,7 +12,7 @@ interface Category {
 }
 export default function CategoryTreatments({ category }) {
     return (
-        <Layout title={category.title}>
+        <Layout>
             <Banner bannerPath={category.image} />
             <main>
                 <h2>category titulo : {category.title}</h2>

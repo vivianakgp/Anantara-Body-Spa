@@ -1,15 +1,17 @@
 import Image from 'next/image'
+import styles from '../../styles/components/layout-components/Footer.module.css'
 
 const Footer = () => {
   return (
-    <div>
+    <div className={styles.footer}>
       <Image 
         src="/isotipo.png" 
         alt="isotipo"
-        width={150}
-        height={150}
+        width={100}
+        height={100}
+        className={styles.isotipo}
       />
-        <div>
+        <div className={styles.contact}>
             <i className="fa-brands fa-facebook"></i>
             <i className="fa-brands fa-instagram"></i>
             <ul>
@@ -22,5 +24,4 @@ const Footer = () => {
     </div>
   )
 }
-
 export default Footer

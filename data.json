@@ -1,5 +1,27 @@
 {
   "bannerImg": "/images/banner.jpg",
+  "adjectives": [
+    {
+      "icon": "fa-solid fa-ranking-star",
+      "title": "Experiencia",
+      "description": "Contamos con más de 10 años de experiencia en tratamientos de alta calidad."
+    },
+    {
+      "icon": "fa-solid fa-trophy",
+      "title": "Resultados",
+      "description": "Nuestros resultados y clientes satisfechos nos avalan."
+    },
+    {
+      "icon": "fa-solid fa-hand-sparkles",
+      "title": "Vanguardia",
+      "description": "Tratamientos con técnicas modernas y aparatos de ultima tecnologia."
+    },
+    {
+      "icon": "fa-solid fa-check",
+      "title": "Armonia Corporal",
+      "description": "Armonia estetica y equilibrio en el contorno corporal mediante tratamientos personalizados."
+    }
+  ],
   "categories": [
     {
       "title": "faciales",
