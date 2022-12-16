@@ -6,9 +6,9 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <Image
-                src="/logotipo.png"
+                src="/isotipo.png"
                 alt="Logo"
-                width={150}
+                width={50}
                 height={50}
             />
             <i id="burgerIcon" className='fa-solid fa-bars'></i>

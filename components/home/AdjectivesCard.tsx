@@ -1,6 +1,5 @@
 import styles from '../../styles/components/home/adjectivesCard.module.css'
 
-
 const AdjectivesCard = ({ adjectives }) => {
   return (
     <div className={styles.gridContainer}>

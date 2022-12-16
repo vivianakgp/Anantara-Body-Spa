@@ -9,6 +9,7 @@ interface Category {
     treatments: [];
 
 }
+
 export default function CardCategory({ category }) {
 
     return (
