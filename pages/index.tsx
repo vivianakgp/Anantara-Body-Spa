@@ -7,6 +7,7 @@ import CardCategory from '../components/home/CardCategory'
 import AdjectivesCard from '../components/home/AdjectivesCard'
 import styles from '../styles/pages/Home.module.css'
 
+
 export default function Home({ category, bannerIgm, adjectives }) {
   return (
     <Layout>

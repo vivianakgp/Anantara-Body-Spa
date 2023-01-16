@@ -1,85 +1,97 @@
-.banner{
+
+.banner{ 
     position: relative;
-    height: 100vh;
-    margin-top: 60px;
+    height: 90vh; 
+    margin-top: 0px;
     text-align: center;
-    color: white;
-    background-image: url(../../public/img/pexels-min-an-1353938.jpg);
-    
+    /* overflow: hidden; */
+    background-image: url(../../public/img/pexels-andrea-piacquadio-3768926.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position:  90% 50%;
 }
 
-.waveTop{
+.wave1{
     position: absolute;
-    top: -5px;
+    /* bottom:-20px; */
+    bottom:-3px;
     width: 100%;
-    z-index: 9;
-    transform: rotate(180deg);
+    /* transform: rotate(-2deg); */
+
 }
-.waveTop > svg {
+.wave1> svg {
     width: 100%;
-    height: fit-content;
+    height: 50%;
+    z-index: 10;
 }
-.waveButton{
+.wave2{
+    display: none;
     position: absolute;
-    bottom:-5px;
-    width: 100%;
+    bottom:19px;
+    width:100%;
+    /* transform: rotate(5deg); */
 }
-.waveButton> svg {
-    width: 100%;
-    height: fit-content;
-}
-/* .cover{
-    position: relative;
+.wave2>svg{
     width: 100%;
     height: 100%;
-    margin: auto;
-    overflow: hidden;
-    background-color: rgb(72, 185, 60);
+    opacity: 0.7;
+    z-index: 5;
 }
-.cover .img{
-    opacity: 0.5;
-
-}
-.cover > h1{
+.wave3{
+    display: none;
     position: absolute;
-    left: 0;
-    right: 0;
-    top:40%;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    letter-spacing: 1px;
-    line-height: 35px;
-    color: white;
-
-} */
-
-
+    /* bottom:-20px; */
+    bottom:29px;
+    width:100%;
+    transform: rotate(2deg);
+}
+.wave3>svg{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 1;
+}
 .content{
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:rgb(42, 178, 178);
-    background-color: rgba(127, 255, 212, 0.176);
+    color:rgba(128, 200, 200, 1);
+    /* color: rgba(148, 198, 118, 1); */
+    background-color: rgba(0, 1, 0, 0.523);
 }
 .content h1{
-    font-size: 78px;
-    font-weight: 400;
+    font-size: 10vw;
     letter-spacing: 10px;
-    font-family: "Reem Kufi Fun", sans-serif;
+    font-family:"NotoSerifSC";
+    /* font-family: 'Noto Serif SC', serif; */
+    color:rgba(128, 200, 200, 1);
+
+
+    /* font-family: "Reem Kufi Fun", sans-serif; */
 }
 .underline {
     width: 7%;
     height: 5px;
+    /* background-color: white; */
     background-color: rgba(128, 200, 200, 1);
-  }
-/* @media (max-width: 480px) {
-    h1 {
-      font-size: 50px;
+}
+.contentImg{
+    width: 70%;
+    display: block;
+}
+
+@media (min-width: 600px) {
+    .wave1{
+        bottom:-5px;
+        transform: rotate(0deg);
     }
-  } */
+    .wave2{
+        display: block;
+    }
+    .wave3{
+        display: block;
+    }
+  }

@@ -13,7 +13,8 @@ interface Category {
 export default function CategoryTreatments({ category }) {
     return (
         <Layout>
-            <Banner bannerPath={category.image} />
+            {/* <Banner bannerPath={category.image} /> */}
+            {/* do a new banner */}
             <main>
                 <h2>category titulo : {category.title}</h2>
                 <div>

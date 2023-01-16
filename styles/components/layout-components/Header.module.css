@@ -8,28 +8,27 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* min-width: 320px; */
     height: 62px;
     padding: 0 24px;
-    background-color:  white;
+    transition: all 0.5s linear;
+    /* box-shadow: none; */
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    /* min-width: 320px; */
+    /* background-color:  #ffffff; */
+    /* background-color: transparent; */
+
 }
 .header > img{
     width: 150px;
+
 }
 .header > i{
     font-size: 24px;
-}
-.waveUp{
-    position: absolute;
-    top: 60px;
-    left: 0;
-    /* z-index: 5; */
-    width: 100%;
-    min-width: 320px;
-    height: auto;
-    transform: rotate(180deg);
-}
+    /* color: #94C676; */
+    color:black;
 
+
+}
 .nav{
     display: none;
     position: absolute;
