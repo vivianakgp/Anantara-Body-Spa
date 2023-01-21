@@ -62,16 +62,6 @@
     /* color: rgba(148, 198, 118, 1); */
     background-color: rgba(0, 1, 0, 0.523);
 }
-.content h1{
-    font-size: 10vw;
-    letter-spacing: 10px;
-    font-family:"NotoSerifSC";
-    /* font-family: 'Noto Serif SC', serif; */
-    color:rgba(128, 200, 200, 1);
-
-
-    /* font-family: "Reem Kufi Fun", sans-serif; */
-}
 .underline {
     width: 7%;
     height: 5px;
@@ -79,9 +69,37 @@
     background-color: rgba(128, 200, 200, 1);
 }
 .contentImg{
-    width: 70%;
-    display: block;
+    display:block;
+    width: 70vw;
 }
+/* .rainContent{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.rainContent div {
+    width: 3px;
+    height: 80px;
+    
+    
+  } 
+.rainContent div:nth-child(even) {
+    width: 3px;
+    height: 180px;
+    
+  } 
+  .rainContent div:nth-child(3n+4) {
+    width: 3px;
+    height: 120px;
+    
+  }
+  .rainContent div:nth-child(2){
+    width: 3px;
+    height: 240px;
+  } */
 
 @media (min-width: 600px) {
     .wave1{
@@ -94,4 +112,14 @@
     .wave3{
         display: block;
     }
+  }
+  @media (min-width: 860px){
+    .contentImg{
+        width: 55vw;
+    }
+  }
+    @media (min-width: 1024px){
+   .banner{
+    height: 100vh; 
+   }
   }

@@ -13,23 +13,32 @@ export default function Home({ category, bannerIgm, adjectives }) {
     <Layout>
       <Banner bannerPath={bannerIgm} />
       <main className={styles.container}>
-        <section>
-          <h2>¿QUIENES SOMOS?</h2>
+        <section className={styles.about}>
+          <h2>SOMOS</h2>
           <p>En Anantara Body Spa nos especializamos en el
             moldeado de la figura corporal, diseñado y personalizando
             nuestros tratamientos corporales esteticos de acuerdo a las
             necesidades de cada uno de nuestros clientes, siempre con
             tecnología de vanguardia.
           </p>
+          <div className={styles.verticalTitle}><div></div><span>SOMOS</span></div>
           <AdjectivesCard adjectives={adjectives} />
-          <div className={styles.mission}>
+          {/* <div className={styles.mission}>
             <h2>MISION</h2>
             <p>Día a día nos esforzamos en brindarte el mejor servicio con las mejores técnicas
               productos y aparatologia, buscamos tu satisfaccion a través de grandes resultados.
             </p>
-          </div>
+          </div> */}
         </section>
-        <CardCategory category={category} />
+        <section className={styles.services}>
+          <h2>
+            <div className={styles.lineUp}></div>
+            <span>NUESTROS</span>Tratamientos
+            <div className={styles.lineDown}></div>
+          </h2>
+          <CardCategory category={category} />
+
+        </section>
       </main>
     </Layout>
 
@@ -43,7 +52,7 @@ export async function getStaticProps() {
     props: {
       category: data.categories,
       bannerIgm: data.bannerImg,
-      adjectives: data.adjectives
+      adjectives: data.adjectives,
     }
   }
 };
