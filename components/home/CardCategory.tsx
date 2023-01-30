@@ -27,12 +27,12 @@ export default function CardCategory({ category }) {
                                 layout='responsive'
                             />
                             <h3>{elem.title}</h3>
-                            <div className={styles.content}>
-                                <p>{elem.description}</p>
-                                <Link href={`/tratamientos/${elem.title}`}>
-                                    <a className={styles.contentBtn}>Ver Todos</a>
-                                </Link>
-                            </div>
+                        </div>
+                        <div className={styles.content}>
+                            <p>{elem.description}</p>
+                            <Link href={`/tratamientos/${elem.title}`}>
+                                <a className={styles.contentBtn}>Ver Todos</a>
+                            </Link>
                         </div>
                     </div>
                 ))

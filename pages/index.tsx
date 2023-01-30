@@ -21,7 +21,6 @@ export default function Home({ category, bannerIgm, adjectives }) {
             necesidades de cada uno de nuestros clientes, siempre con
             tecnología de vanguardia.
           </p>
-          <div className={styles.verticalTitle}><div></div><span>SOMOS</span></div>
           <AdjectivesCard adjectives={adjectives} />
           {/* <div className={styles.mission}>
             <h2>MISION</h2>
